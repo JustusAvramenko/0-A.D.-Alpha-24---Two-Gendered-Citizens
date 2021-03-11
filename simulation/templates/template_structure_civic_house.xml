@@ -47,7 +47,7 @@
       units/{civ}/support_citizen_house
     </Entities>
     <Technologies datatype="tokens">
-      health_females_01
+      health_citizens_01
       pop_house_01
       pop_house_02
       unlock_citizens_house
