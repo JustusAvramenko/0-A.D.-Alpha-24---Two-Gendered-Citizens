@@ -37,14 +37,14 @@
         <texture file="skeletal/maur_fem_d_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="2" name="Skirt-Short-Bare">
+    <variant frequency="0" name="Skirt-Short-Bare">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <textures>
         <texture file="skeletal/maur_fem_c.png" name="baseTex"/>
         <texture file="skeletal/maur_fem_c_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="2" name="Skirt-Very-Short-Bare">
+    <variant frequency="0" name="Skirt-Very-Short-Bare">
       <mesh>skeletal/new/f_naked.dae</mesh>
       <textures>
         <texture file="skeletal/maur_fem_c.png" name="baseTex"/>
