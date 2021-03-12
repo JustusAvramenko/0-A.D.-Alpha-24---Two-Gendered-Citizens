@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/spart/support_citizen_female">
+<Entity parent="units/spart/support_citizen">
   <Cost>
     <BuildTime>30</BuildTime>
   </Cost>
