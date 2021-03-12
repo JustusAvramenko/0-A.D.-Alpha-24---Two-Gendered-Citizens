@@ -38,7 +38,7 @@
 			"Template": "structures/spart/civil_centre"
 		},
 		{
-			"Template": "units/spart/support_citizen_female",
+			"Template": "units/spart/support_citizen",
 			"Count": 4
 		},
 		{
@@ -86,8 +86,7 @@
 		"skirmish/structures/default_wall_gate": "",
 		"skirmish/structures/default_wall_short": "",
 		"skirmish/structures/default_wall_medium": "",
-		"skirmish/structures/default_wall_long": "",
-		"skirmish/units/default_support_citizen": "units/spart/support_citizen_female"
+		"skirmish/structures/default_wall_long": ""
 	},
 	"SelectableInGameSetup": true
 }
