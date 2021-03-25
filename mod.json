@@ -1,7 +1,7 @@
 {
 	"name": "Two-Gendered-Citizens",
-	"version": "0.0.1",
-	"label": "Adds male variations for Citizens",
+	"version": "1.0",
+	"label": "Adds new \"Citizen\" units that replace the Female Citizen.",
 	"description": "Adds male variations for Citizens in Empires Ascendant",
 	"dependencies": ["0ad>=0.0.24"]
 }
