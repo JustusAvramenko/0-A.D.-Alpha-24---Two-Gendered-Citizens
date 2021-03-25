@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support">
+<Entity parent="template_unit">
   <Attack>
-    <Melee>
-      <AttackName>Dagger</AttackName>
-      <Damage>
-        <Hack>2.0</Hack>
-        <Pierce>0</Pierce>
-        <Crush>0.0</Crush>
-      </Damage>
-      <MaxRange>3</MaxRange>
-      <PrepareTime>500</PrepareTime>
+    <Capture>
+      <AttackName>Capture</AttackName>
+      <Capture>2.5</Capture>
+      <MaxRange>4</MaxRange>
       <RepeatTime>1000</RepeatTime>
-    </Melee>
+      <RestrictedClasses datatype="tokens">Field Palisade Wall</RestrictedClasses>
+    </Capture>
     <Slaughter>
       <AttackName>Slaughter</AttackName>
       <Damage>
@@ -52,73 +48,85 @@
     </Entities>
   </Builder>
   <Cost>
-    <BuildTime>9</BuildTime>
+    <BuildTime>12</BuildTime>
     <Resources>
       <food>50</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>25</Max>
+    <Max>80</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Civilian Builder Gatherer</Classes>
-    <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
-    <GenericName>Citizen</GenericName>
-    <SelectionGroupName>template_unit_support_citizen</SelectionGroupName>
-	<Phenotype datatype="tokens">
-	  female
-	  male
-	</Phenotype>
-    <Formations disable=""/>
+    <Classes datatype="tokens">Human CitizenSoldier</Classes>
+    <VisibleClasses datatype="tokens">Citizen Worker Soldier Infantry</VisibleClasses>
+    <GenericName>Infantry</GenericName>
+    <Rank>Basic</Rank>
   </Identity>
   <Loot>
-    <xp>3</xp>
+    <xp>100</xp>
     <food>5</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>0</metal>
   </Loot>
+  <Position>
+    <Anchor>upright</Anchor>
+  </Position>
+  <Promotion>
+    <RequiredXp>100</RequiredXp>
+  </Promotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>2</Hack>
+        <Pierce>4</Pierce>
+        <Crush>15</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>
     <Rates>
-      <food.fruit>1</food.fruit>
-      <food.grain>0.5</food.grain>
+      <food.fruit>0.6</food.fruit>
+      <food.grain>0.3</food.grain>
       <food.meat>1</food.meat>
-      <wood.tree>0.9</wood.tree>
-      <wood.ruins>4.5</wood.ruins>
-      <stone.rock>0.5</stone.rock>
-      <stone.ruins>2.5</stone.ruins>
-      <metal.ore>0.5</metal.ore>
+      <wood.tree>0.6</wood.tree>
+      <wood.ruins>3.5</wood.ruins>
+      <stone.rock>0.4</stone.rock>
+      <stone.ruins>2</stone.ruins>
+      <metal.ore>0.4</metal.ore>
     </Rates>
   </ResourceGatherer>
   <Sound>
     <SoundGroups>
-      <select>voice/{lang}/civ/civ_{phenotype}_select.xml</select>
-      <order_walk>voice/{lang}/civ/civ_{phenotype}_walk.xml</order_walk>
+      <attack_slaughter>attack/weapon/knife_attack.xml</attack_slaughter>
       <order_attack>voice/{lang}/civ/civ_{phenotype}_attack.xml</order_attack>
+      <order_build>voice/{lang}/civ/civ_{phenotype}_build.xml</order_build>
+      <order_garrison>voice/{lang}/civ/civ_{phenotype}_garrison.xml</order_garrison>
       <order_gather>voice/{lang}/civ/civ_{phenotype}_gather.xml</order_gather>
       <order_repair>voice/{lang}/civ/civ_{phenotype}_repair.xml</order_repair>
-	  <order_build>voice/{lang}/civ/civ_{phenotype}_build.xml</order_build>
-      <order_garrison>voice/{lang}/civ/civ_{phenotype}_garrison.xml</order_garrison>
-      <invalid_building_placement>interface/alarm/alarm_invalid_building_placement.xml</invalid_building_placement>
+      <order_walk>voice/{lang}/civ/civ_{phenotype}_walk.xml</order_walk>
+      <select>voice/{lang}/civ/civ_{phenotype}_select.xml</select>
       <walk>actor/human/movement/walk.xml</walk>
       <run>actor/human/movement/run.xml</run>
-      <attack_melee>attack/weapon/knife_attack.xml</attack_melee>
-	  <attack_slaughter>attack/weapon/knife_attack.xml</attack_slaughter>
       <death>actor/human/death/{phenotype}_death.xml</death>
       <build>resource/construction/con_wood.xml</build>
-      <trained>interface/alarm/alarm_create_infantry.xml</trained>
       <gather_fruit>resource/foraging/forage_leaves.xml</gather_fruit>
       <gather_grain>resource/farming/farm.xml</gather_grain>
-	  <gather_meat>resource/gathering/gather_meat.xml</gather_meat>
+      <gather_meat>resource/gathering/gather_meat.xml</gather_meat>
       <gather_tree>resource/lumbering/lumbering.xml</gather_tree>
       <gather_rock>resource/mining/pickaxe.xml</gather_rock>
       <gather_ore>resource/mining/mining.xml</gather_ore>
       <gather_ruins>resource/mining/mining.xml</gather_ruins>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <invalid_building_placement>interface/alarm/alarm_invalid_building_placement.xml</invalid_building_placement>
     </SoundGroups>
   </Sound>
-  <UnitAI>
-    <CanPatrol>false</CanPatrol>
-  </UnitAI>
   <Vision>
-    <Range>32</Range>
+    <Range>80</Range>
   </Vision>
 </Entity>
