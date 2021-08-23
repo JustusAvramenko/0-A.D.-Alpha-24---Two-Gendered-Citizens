@@ -1,0 +1,5 @@
+https://wildfiregames.com/forum/topic/24444-how-to-package-your-mods-on-windows/
+
+
+binaries/system/pyrogenesis -mod=mod -mod=public -mod=two_gendered_citizens_A25 -archivebuild="binaries/data/mods/two_gendered_citizens_A25"  -archivebuild-output="0ad_two_gendered_citizens_A25.pyromod" -archivebuild-compress
+
