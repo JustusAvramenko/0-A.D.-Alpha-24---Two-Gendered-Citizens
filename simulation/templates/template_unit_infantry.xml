@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit">
+<Entity parent="builder|template_unit">
   <Attack>
     <Capture>
       <AttackName>Capture</AttackName>
@@ -14,41 +14,12 @@
         <Hack>1000</Hack>
       </Damage>
       <MaxRange>2</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">!Domestic</RestrictedClasses>
     </Slaughter>
   </Attack>
-  <Builder>
-    <Rate>1.0</Rate>
-    <Entities datatype="tokens">
-      structures/{civ}/civil_centre
-      structures/{civ}/crannog
-      structures/{civ}/military_colony
-      structures/{civ}/house
-      structures/{civ}/apartment
-      structures/{civ}/storehouse
-      structures/{civ}/farmstead
-      structures/{civ}/field
-      structures/{civ}/corral
-      structures/{civ}/dock
-      structures/{civ}/barracks
-      structures/{civ}/stable
-      structures/{civ}/elephant_stables
-      structures/{civ}/arsenal
-      structures/{civ}/forge
-      structures/{civ}/temple
-      structures/{civ}/market
-      structures/{civ}/outpost
-      structures/{civ}/sentry_tower
-      structures/{civ}/defense_tower
-      structures/{civ}/fortress
-      structures/wallset_palisade
-      structures/{civ}/wallset_siege
-      structures/{civ}/wallset_stone
-      structures/{civ}/theater
-      structures/{civ}/wonder
-    </Entities>
-  </Builder>
   <Cost>
-    <BuildTime>12</BuildTime>
+    <BuildTime>10</BuildTime>
     <Resources>
       <food>50</food>
       <wood>0</wood>
@@ -60,9 +31,9 @@
     <Max>80</Max>
   </Health>
   <Identity>
+    <GenericName>Infantry</GenericName>
     <Classes datatype="tokens">Human CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker Soldier Infantry</VisibleClasses>
-    <GenericName>Infantry</GenericName>
     <Rank>Basic</Rank>
   </Identity>
   <Loot>
@@ -89,17 +60,24 @@
   </Resistance>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
-    <BaseSpeed>1.0</BaseSpeed>
+    <BaseSpeed>0.75</BaseSpeed>
     <Rates>
-      <food.fruit>0.6</food.fruit>
-      <food.grain>0.3</food.grain>
+      <food.fruit>0.5</food.fruit>
+      <food.grain>0.25</food.grain>
       <food.meat>1</food.meat>
-      <wood.tree>0.6</wood.tree>
-      <wood.ruins>3.5</wood.ruins>
-      <stone.rock>0.4</stone.rock>
+      <wood.tree>0.75</wood.tree>
+      <wood.ruins>5</wood.ruins>
+      <stone.rock>0.5</stone.rock>
       <stone.ruins>2</stone.ruins>
-      <metal.ore>0.4</metal.ore>
+      <metal.ore>0.5</metal.ore>
+      <metal.ruins>2</metal.ruins>
     </Rates>
+    <Capacities>
+      <food>10</food>
+      <wood>10</wood>
+      <stone>10</stone>
+      <metal>10</metal>
+    </Capacities>
   </ResourceGatherer>
   <Sound>
     <SoundGroups>
