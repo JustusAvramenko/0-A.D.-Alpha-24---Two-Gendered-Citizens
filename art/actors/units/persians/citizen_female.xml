@@ -12,13 +12,13 @@
     <variant frequency="1" name="Dress-01">
       <mesh>skeletal/new/f_dress.dae</mesh>
       <textures>
-        <texture file="skeletal/pers_fem_1.dds" name="baseTex"/>
+        <texture file="skeletal/pers/dress_female_01_01.dds" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Dress-02">
       <mesh>skeletal/new/f_dress.dae</mesh>
       <textures>
-        <texture file="skeletal/pers_fem_2.dds" name="baseTex"/>
+        <texture file="skeletal/pers/dress_female_01_02.dds" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -30,14 +30,14 @@
     <variant file="biped/female_carry_wood.xml"/>
     <variant file="biped/female_carry_stone.xml"/>
     <variant file="biped/female_carry_metal.xml"/>
-	<variant file="biped/approach_tree.xml"/>
-	<variant file="biped/approach_grain.xml"/>
-	<variant file="biped/approach_fruit.xml"/>
-	<variant file="biped/approach_meat.xml"/>
-	<variant file="biped/approach_rock.xml"/>
-	<variant file="biped/approach_ore.xml"/>
-	<variant file="biped/approach_ruins.xml"/>
-	<variant file="biped/approach_praise.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
     <!-- In this group, define overloads for other animation types, since they presumably do not collide with each other -->

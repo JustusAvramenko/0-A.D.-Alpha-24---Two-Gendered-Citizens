@@ -22444,19 +22444,19 @@
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="4753">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="612.5633" z="619.4928"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="4754">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="615.30042" z="620.83411"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="4755">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="617.83796" z="623.41419"/>
 			<Orientation y="2.35621"/>

@@ -10,19 +10,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Tunic-Sleeveless-a">
+    <variant frequency="1" name="tunic_02_01">
       <textures>
-	    <texture file="skeletal/hele_tunic_2_a.png" name="baseTex"/>
+	    <texture file="skeletal/hele/tunic_02_01.png" name="baseTex"/>
 	  </textures>
     </variant>
-    <variant frequency="1" name="Tunic-Sleeveless-b">
+    <variant frequency="1" name="tunic_02_02">
       <textures>
-	    <texture file="skeletal/hele_tunic_2_b.png" name="baseTex"/>
+	    <texture file="skeletal/hele/tunic_02_02.png" name="baseTex"/>
 	  </textures>
     </variant>
-    <variant frequency="1" name="Tunic-Sleeveless-c">
+    <variant frequency="1" name="tunic_02_03">
       <textures>
-	    <texture file="skeletal/hele_tunic_2_c.png" name="baseTex"/>
+	    <texture file="skeletal/hele/tunic_02_01.png" name="baseTex"/>
 	  </textures>
     </variant>
   </group>

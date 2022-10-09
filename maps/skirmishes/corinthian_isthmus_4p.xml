@@ -5457,15 +5457,13 @@
 			<Actor seed="15236"/>
 		</Entity>
 		<Entity uid="1672">
-			<Template>structures/bridge_wooden</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_wooden.xml</Template>
 			<Position x="1240.20264" z="677.28711"/>
 			<Orientation y="0.92228"/>
 			<Actor seed="1746"/>
 		</Entity>
 		<Entity uid="1673">
-			<Template>structures/bridge_wooden</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_wooden.xml</Template>
 			<Position x="1233.19459" z="670.37372"/>
 			<Orientation y="-2.22959"/>
 			<Actor seed="14658"/>
@@ -7887,25 +7885,25 @@
 			<Orientation y="2.93371"/>
 		</Entity>
 		<Entity uid="3108">
-			<Template>units/athen/support_female_citizen</Template>
+			<Template>units/athen/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="2565.52564" z="1839.9745"/>
 			<Orientation y="-0.81911"/>
 		</Entity>
 		<Entity uid="3109">
-			<Template>units/athen/support_female_citizen</Template>
+			<Template>units/athen/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="2565.53736" z="1841.68519"/>
 			<Orientation y="1.187"/>
 		</Entity>
 		<Entity uid="3110">
-			<Template>units/athen/support_female_citizen</Template>
+			<Template>units/athen/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="2564.3938" z="1842.40894"/>
 			<Orientation y="-2.86724"/>
 		</Entity>
 		<Entity uid="3111">
-			<Template>units/athen/support_female_citizen</Template>
+			<Template>units/athen/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="2563.96534" z="1839.72657"/>
 			<Orientation y="-0.07532"/>
@@ -8513,15 +8511,13 @@
 			<Orientation y="-2.5886"/>
 		</Entity>
 		<Entity uid="3262">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="1419.63086" z="1418.98108"/>
 			<Orientation y="-2.35338"/>
 			<Actor seed="56096"/>
 		</Entity>
 		<Entity uid="3263">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="1457.13209" z="1454.55921"/>
 			<Orientation y="0.77076"/>
 			<Actor seed="39596"/>
@@ -12787,13 +12783,13 @@
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="4660">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="1846.50074" z="1376.011"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="4662">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="1828.26966" z="1372.04554"/>
 			<Orientation y="2.35621"/>
@@ -12901,7 +12897,7 @@
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="4711">
-			<Template>gaia/fruit/fig</Template>
+			<Template>gaia/fruit/date</Template>
 			<Player>0</Player>
 			<Position x="1744.59681" z="1331.60853"/>
 			<Orientation y="2.35621"/>

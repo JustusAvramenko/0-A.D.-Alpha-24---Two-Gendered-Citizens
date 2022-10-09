@@ -56,15 +56,13 @@
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="17">
-			<Template>structures/bridge_wooden</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_wooden.xml</Template>
 			<Position x="415.97614" z="473.14173"/>
 			<Orientation y="1.21338"/>
 			<Actor seed="9104"/>
 		</Entity>
 		<Entity uid="18">
-			<Template>structures/bridge_wooden</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_wooden.xml</Template>
 			<Position x="409.78592" z="463.34095"/>
 			<Orientation y="-1.95751"/>
 			<Actor seed="51006"/>
@@ -11548,28 +11546,28 @@
 			<Actor seed="21368"/>
 		</Entity>
 		<Entity uid="1807">
-			<Template>units/gaul/support_female_citizen</Template>
+			<Template>units/gaul/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="103.24279" z="258.56275"/>
 			<Orientation y="-1.32671"/>
 			<Actor seed="14126"/>
 		</Entity>
 		<Entity uid="1808">
-			<Template>units/gaul/support_female_citizen</Template>
+			<Template>units/gaul/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="75.3372" z="310.95926"/>
 			<Orientation y="0.229"/>
 			<Actor seed="36034"/>
 		</Entity>
 		<Entity uid="1809">
-			<Template>units/gaul/support_female_citizen</Template>
+			<Template>units/gaul/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="95.18744" z="266.77997"/>
 			<Orientation y="-0.08094"/>
 			<Actor seed="1632"/>
 		</Entity>
 		<Entity uid="1810">
-			<Template>units/gaul/support_female_citizen</Template>
+			<Template>units/gaul/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="98.74318" z="269.76688"/>
 			<Orientation y="-1.53377"/>

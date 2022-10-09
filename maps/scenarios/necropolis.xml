@@ -49361,61 +49361,61 @@
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="9989">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="436.8393" z="467.28501"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="9990">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="438.69922" z="468.62897"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="9991">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="440.2621" z="470.16498"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="9992">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="441.62424" z="471.10901"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="9993">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="443.32551" z="472.39478"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="9994">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="445.48847" z="474.04719"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="9995">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="447.3907" z="476.09952"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="9996">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="448.94791" z="478.05091"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="9997">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="450.36677" z="479.51438"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="9998">
-			<Template>units/spart/support_citizen_female</Template>
+			<Template>units/spart/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="451.55521" z="480.63746"/>
 			<Orientation y="2.35621"/>

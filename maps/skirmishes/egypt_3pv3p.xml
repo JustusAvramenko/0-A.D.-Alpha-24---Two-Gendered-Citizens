@@ -1437,7 +1437,7 @@
 			<Orientation y="1.48775"/>
 		</Entity>
 		<Entity uid="514">
-			<Template>units/gaul/support_female_citizen</Template>
+			<Template>units/gaul/support_citizen</Template>
 			<Player>6</Player>
 			<Position x="113.11043" z="1279.27857"/>
 			<Orientation y="3.927"/>
@@ -17926,7 +17926,7 @@
 			<Actor seed="39214"/>
 		</Entity>
 		<Entity uid="4336">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="1243.80347" z="54.82265"/>
 			<Orientation y="2.35621"/>
@@ -19691,36 +19691,31 @@
 			<Actor seed="27130"/>
 		</Entity>
 		<Entity uid="4677">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="848.0954" z="1711.07923"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49232"/>
 		</Entity>
 		<Entity uid="4678">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="816.33252" z="1679.80701"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18076"/>
 		</Entity>
 		<Entity uid="4679">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="841.81214" z="1610.23621"/>
 			<Orientation y="0.81672"/>
 			<Actor seed="62208"/>
 		</Entity>
 		<Entity uid="4681">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="936.982" z="1612.08484"/>
 			<Orientation y="-0.79255"/>
 			<Actor seed="31636"/>
 		</Entity>
 		<Entity uid="4682">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="913.03638" z="1586.97168"/>
 			<Orientation y="-0.78704"/>
 			<Actor seed="39530"/>
@@ -23268,98 +23263,98 @@
 			<Orientation y="1.8109"/>
 		</Entity>
 		<Entity uid="5442">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="412.11255" z="1438.14283"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40294"/>
 		</Entity>
 		<Entity uid="5443">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="398.36277" z="1437.76429"/>
 			<Orientation y="-2.04773"/>
 			<Actor seed="34760"/>
 		</Entity>
 		<Entity uid="5444">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="383.70966" z="1439.18787"/>
 			<Orientation y="3.57213"/>
 			<Actor seed="15436"/>
 		</Entity>
 		<Entity uid="5445">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="371.21186" z="1439.41993"/>
 			<Orientation y="-0.2434"/>
 			<Actor seed="49694"/>
 		</Entity>
 		<Entity uid="5446">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="413.66276" z="1449.30286"/>
 			<Orientation y="2.83381"/>
 			<Actor seed="49694"/>
 		</Entity>
 		<Entity uid="5447">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="401.17591" z="1448.73023"/>
 			<Orientation y="6.64933"/>
 			<Actor seed="15436"/>
 		</Entity>
 		<Entity uid="5448">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="386.46155" z="1449.20801"/>
 			<Orientation y="1.02947"/>
 			<Actor seed="34760"/>
 		</Entity>
 		<Entity uid="5449">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="372.78248" z="1447.90552"/>
 			<Orientation y="5.43342"/>
 			<Actor seed="40294"/>
 		</Entity>
 		<Entity uid="5450">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="374.38465" z="1460.17664"/>
 			<Orientation y="2.01603"/>
 			<Actor seed="49694"/>
 		</Entity>
 		<Entity uid="5451">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="386.88245" z="1459.94459"/>
 			<Orientation y="4.63532"/>
 			<Actor seed="15436"/>
 		</Entity>
 		<Entity uid="5452">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="401.66181" z="1458.47095"/>
 			<Orientation y="-0.31743"/>
 			<Actor seed="34760"/>
 		</Entity>
 		<Entity uid="5453">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="415.28534" z="1458.89954"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="40294"/>
 		</Entity>
 		<Entity uid="5454">
-			<Template>gaia/fruit/fig</Template>
+			<Template>gaia/fruit/date</Template>
 			<Player>0</Player>
 			<Position x="445.48145" z="1485.87916"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45564"/>
 		</Entity>
 		<Entity uid="5455">
-			<Template>gaia/fruit/fig</Template>
+			<Template>gaia/fruit/date</Template>
 			<Player>0</Player>
 			<Position x="400.09559" z="1531.80591"/>
 			<Orientation y="2.35621"/>
@@ -51427,29 +51422,25 @@
 			<Actor seed="20280"/>
 		</Entity>
 		<Entity uid="11508">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="1489.48365" z="1525.07984"/>
 			<Orientation y="4.09935"/>
 			<Actor seed="16866"/>
 		</Entity>
 		<Entity uid="11509">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="1459.17786" z="1481.24988"/>
 			<Orientation y="7.25483"/>
 			<Actor seed="53678"/>
 		</Entity>
 		<Entity uid="11510">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="1516.0221" z="1487.47999"/>
 			<Orientation y="4.09937"/>
 			<Actor seed="16866"/>
 		</Entity>
 		<Entity uid="11511">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Position x="1481.46814" z="1448.62708"/>
 			<Orientation y="7.25484"/>
 			<Actor seed="53678"/>
@@ -56454,14 +56445,14 @@
 			<Actor seed="49176"/>
 		</Entity>
 		<Entity uid="12425">
-			<Template>gaia/fruit/fig</Template>
+			<Template>gaia/fruit/date</Template>
 			<Player>0</Player>
 			<Position x="1883.78016" z="752.59766"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37158"/>
 		</Entity>
 		<Entity uid="12426">
-			<Template>gaia/fruit/fig</Template>
+			<Template>gaia/fruit/date</Template>
 			<Player>0</Player>
 			<Position x="1925.22803" z="714.3791"/>
 			<Orientation y="2.35621"/>
@@ -78354,21 +78345,21 @@
 			<Actor seed="64588"/>
 		</Entity>
 		<Entity uid="16980">
-			<Template>gaia/fruit/fig</Template>
+			<Template>gaia/fruit/date</Template>
 			<Player>0</Player>
 			<Position x="1199.54847" z="776.33918"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19956"/>
 		</Entity>
 		<Entity uid="16981">
-			<Template>gaia/fruit/fig</Template>
+			<Template>gaia/fruit/date</Template>
 			<Player>0</Player>
 			<Position x="1095.48487" z="1017.2602"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="30114"/>
 		</Entity>
 		<Entity uid="16982">
-			<Template>gaia/fruit/fig</Template>
+			<Template>gaia/fruit/date</Template>
 			<Player>0</Player>
 			<Position x="1107.65235" z="1628.76795"/>
 			<Orientation y="2.35621"/>
@@ -94001,28 +93992,28 @@
 			<Actor seed="21272"/>
 		</Entity>
 		<Entity uid="19718">
-			<Template>units/sele/support_female_citizen</Template>
+			<Template>units/sele/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="800.58173" z="1634.22706"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37756"/>
 		</Entity>
 		<Entity uid="19719">
-			<Template>units/sele/support_female_citizen</Template>
+			<Template>units/sele/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="802.29914" z="1630.25342"/>
 			<Orientation y="-0.52659"/>
 			<Actor seed="9148"/>
 		</Entity>
 		<Entity uid="19720">
-			<Template>units/sele/support_female_citizen</Template>
+			<Template>units/sele/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="957.25312" z="1639.21375"/>
 			<Orientation y="0.0467"/>
 			<Actor seed="5892"/>
 		</Entity>
 		<Entity uid="19721">
-			<Template>units/sele/support_female_citizen</Template>
+			<Template>units/sele/support_citizen</Template>
 			<Player>1</Player>
 			<Position x="959.10688" z="1643.72046"/>
 			<Orientation y="4.2801"/>
@@ -94368,42 +94359,42 @@
 			<Actor seed="3071"/>
 		</Entity>
 		<Entity uid="19793">
-			<Template>units/cart/support_female_citizen</Template>
+			<Template>units/cart/support_citizen</Template>
 			<Player>3</Player>
 			<Position x="128.39734" z="592.27338"/>
 			<Orientation y="1.28222"/>
 			<Actor seed="57980"/>
 		</Entity>
 		<Entity uid="19794">
-			<Template>units/cart/support_female_citizen</Template>
+			<Template>units/cart/support_citizen</Template>
 			<Player>3</Player>
 			<Position x="127.43647" z="597.45447"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34936"/>
 		</Entity>
 		<Entity uid="19795">
-			<Template>units/cart/support_female_citizen</Template>
+			<Template>units/cart/support_citizen</Template>
 			<Player>3</Player>
 			<Position x="304.04737" z="681.95936"/>
 			<Orientation y="3.9325"/>
 			<Actor seed="42150"/>
 		</Entity>
 		<Entity uid="19796">
-			<Template>units/cart/support_female_citizen</Template>
+			<Template>units/cart/support_citizen</Template>
 			<Player>3</Player>
 			<Position x="299.79542" z="680.98578"/>
 			<Orientation y="1.85798"/>
 			<Actor seed="47886"/>
 		</Entity>
 		<Entity uid="19797">
-			<Template>units/cart/support_female_citizen</Template>
+			<Template>units/cart/support_citizen</Template>
 			<Player>3</Player>
 			<Position x="281.52356" z="533.75226"/>
 			<Orientation y="1.25002"/>
 			<Actor seed="63206"/>
 		</Entity>
 		<Entity uid="19798">
-			<Template>units/cart/support_female_citizen</Template>
+			<Template>units/cart/support_citizen</Template>
 			<Player>3</Player>
 			<Position x="282.4372" z="538.43769"/>
 			<Orientation y="2.35621"/>
@@ -94731,42 +94722,42 @@
 			<Actor seed="43006"/>
 		</Entity>
 		<Entity uid="19857">
-			<Template>units/rome/support_female_citizen</Template>
+			<Template>units/rome/support_citizen</Template>
 			<Player>6</Player>
 			<Position x="424.51313" z="1491.19605"/>
 			<Orientation y="4.61081"/>
 			<Actor seed="50678"/>
 		</Entity>
 		<Entity uid="19858">
-			<Template>units/rome/support_female_citizen</Template>
+			<Template>units/rome/support_citizen</Template>
 			<Player>6</Player>
 			<Position x="425.27598" z="1494.90503"/>
 			<Orientation y="4.61081"/>
 			<Actor seed="19822"/>
 		</Entity>
 		<Entity uid="19859">
-			<Template>units/rome/support_female_citizen</Template>
+			<Template>units/rome/support_citizen</Template>
 			<Player>6</Player>
 			<Position x="427.88501" z="1491.93262"/>
 			<Orientation y="4.61081"/>
 			<Actor seed="57586"/>
 		</Entity>
 		<Entity uid="19860">
-			<Template>units/rome/support_female_citizen</Template>
+			<Template>units/rome/support_citizen</Template>
 			<Player>6</Player>
 			<Position x="158.51114" z="1261.0918"/>
 			<Orientation y="4.19149"/>
 			<Actor seed="4860"/>
 		</Entity>
 		<Entity uid="19861">
-			<Template>units/rome/support_female_citizen</Template>
+			<Template>units/rome/support_citizen</Template>
 			<Player>6</Player>
 			<Position x="155.86741" z="1259.6974"/>
 			<Orientation y="4.19149"/>
 			<Actor seed="19962"/>
 		</Entity>
 		<Entity uid="19862">
-			<Template>units/rome/support_female_citizen</Template>
+			<Template>units/rome/support_citizen</Template>
 			<Player>6</Player>
 			<Position x="156.9993" z="1263.01978"/>
 			<Orientation y="4.19149"/>
@@ -94997,28 +94988,28 @@
 			<Actor seed="31378"/>
 		</Entity>
 		<Entity uid="19904">
-			<Template>units/ptol/support_female_citizen</Template>
+			<Template>units/ptol/support_citizen</Template>
 			<Player>5</Player>
 			<Position x="1358.74341" z="1058.28968"/>
 			<Orientation y="4.06539"/>
 			<Actor seed="49646"/>
 		</Entity>
 		<Entity uid="19905">
-			<Template>units/ptol/support_female_citizen</Template>
+			<Template>units/ptol/support_citizen</Template>
 			<Player>5</Player>
 			<Position x="1357.70496" z="1052.65284"/>
 			<Orientation y="5.35146"/>
 			<Actor seed="24588"/>
 		</Entity>
 		<Entity uid="19906">
-			<Template>units/ptol/support_female_citizen</Template>
+			<Template>units/ptol/support_citizen</Template>
 			<Player>5</Player>
 			<Position x="1361.33936" z="1055.34241"/>
 			<Orientation y="11.45607"/>
 			<Actor seed="51780"/>
 		</Entity>
 		<Entity uid="19907">
-			<Template>units/ptol/support_female_citizen</Template>
+			<Template>units/ptol/support_citizen</Template>
 			<Player>5</Player>
 			<Position x="1357.70057" z="1060.98963"/>
 			<Orientation y="2.94144"/>
@@ -95746,42 +95737,42 @@
 			<Actor seed="5502"/>
 		</Entity>
 		<Entity uid="20051">
-			<Template>units/maur/support_female_citizen</Template>
+			<Template>units/maur/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="1905.6438" z="773.03785"/>
 			<Orientation y="1.67522"/>
 			<Actor seed="12768"/>
 		</Entity>
 		<Entity uid="20052">
-			<Template>units/maur/support_female_citizen</Template>
+			<Template>units/maur/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="1906.77833" z="771.46595"/>
 			<Orientation y="0.76188"/>
 			<Actor seed="1064"/>
 		</Entity>
 		<Entity uid="20053">
-			<Template>units/maur/support_female_citizen</Template>
+			<Template>units/maur/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="1909.04126" z="774.12067"/>
 			<Orientation y="-2.18238"/>
 			<Actor seed="60414"/>
 		</Entity>
 		<Entity uid="20054">
-			<Template>units/maur/support_female_citizen</Template>
+			<Template>units/maur/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="1905.36878" z="775.24244"/>
 			<Orientation y="2.29355"/>
 			<Actor seed="52694"/>
 		</Entity>
 		<Entity uid="20055">
-			<Template>units/maur/support_female_citizen</Template>
+			<Template>units/maur/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="1909.26343" z="771.83368"/>
 			<Orientation y="-1.23417"/>
 			<Actor seed="48168"/>
 		</Entity>
 		<Entity uid="20056">
-			<Template>units/maur/support_female_citizen</Template>
+			<Template>units/maur/support_citizen</Template>
 			<Player>0</Player>
 			<Position x="1908.50342" z="769.45795"/>
 			<Orientation y="-0.33758"/>
@@ -98975,7 +98966,7 @@
 			<Actor seed="62612"/>
 		</Entity>
 		<Entity uid="20694">
-			<Template>units/cart/support_female_citizen</Template>
+			<Template>units/cart/support_citizen</Template>
 			<Player>3</Player>
 			<Position x="285.44651" z="529.38526"/>
 			<Orientation y="2.15294"/>
@@ -104009,28 +104000,28 @@
 			<Actor seed="4252"/>
 		</Entity>
 		<Entity uid="21768">
-			<Template>units/kush/support_female_citizen</Template>
+			<Template>units/kush/support_citizen</Template>
 			<Player>2</Player>
 			<Position x="1477.89563" z="520.69355"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42410"/>
 		</Entity>
 		<Entity uid="21769">
-			<Template>units/kush/support_female_citizen</Template>
+			<Template>units/kush/support_citizen</Template>
 			<Player>2</Player>
 			<Position x="1479.22132" z="519.0475"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33752"/>
 		</Entity>
 		<Entity uid="21770">
-			<Template>units/kush/support_female_citizen</Template>
+			<Template>units/kush/support_citizen</Template>
 			<Player>2</Player>
 			<Position x="1480.26661" z="516.59345"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27114"/>
 		</Entity>
 		<Entity uid="21771">
-			<Template>units/kush/support_female_citizen</Template>
+			<Template>units/kush/support_citizen</Template>
 			<Player>2</Player>
 			<Position x="1480.55726" z="520.29535"/>
 			<Orientation y="2.35621"/>
@@ -110031,14 +110022,14 @@
 			<Actor seed="30932"/>
 		</Entity>
 		<Entity uid="22828">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="206.36002" z="1121.82288"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37676"/>
 		</Entity>
 		<Entity uid="22829">
-			<Template>gaia/fruit/olive</Template>
+			<Template>gaia/tree/olive</Template>
 			<Player>0</Player>
 			<Position x="199.75284" z="1144.92347"/>
 			<Orientation y="-2.72709"/>
@@ -113847,7 +113838,7 @@
 			<Actor seed="34698"/>
 		</Entity>
 		<Entity uid="23488">
-			<Template>gaia/fruit/fig</Template>
+			<Template>gaia/fruit/date</Template>
 			<Player>0</Player>
 			<Position x="1202.32117" z="1747.96595"/>
 			<Orientation y="1.21558"/>
@@ -114410,35 +114401,35 @@
 			<Actor seed="50594"/>
 		</Entity>
 		<Entity uid="23574">
-			<Template>units/pers/support_female_citizen</Template>
+			<Template>units/pers/support_citizen</Template>
 			<Player>4</Player>
 			<Position x="1724.11316" z="1547.20276"/>
 			<Orientation y="-1.9386"/>
 			<Actor seed="32892"/>
 		</Entity>
 		<Entity uid="23575">
-			<Template>units/pers/support_female_citizen</Template>
+			<Template>units/pers/support_citizen</Template>
 			<Player>4</Player>
 			<Position x="1718.32447" z="1548.32776"/>
 			<Orientation y="2.96312"/>
 			<Actor seed="32230"/>
 		</Entity>
 		<Entity uid="23576">
-			<Template>units/pers/support_female_citizen</Template>
+			<Template>units/pers/support_citizen</Template>
 			<Player>4</Player>
 			<Position x="1721.69007" z="1542.76014"/>
 			<Orientation y="-1.09551"/>
 			<Actor seed="43034"/>
 		</Entity>
 		<Entity uid="23577">
-			<Template>units/pers/support_female_citizen</Template>
+			<Template>units/pers/support_citizen</Template>
 			<Player>4</Player>
 			<Position x="1716.55884" z="1542.38648"/>
 			<Orientation y="0.78214"/>
 			<Actor seed="3970"/>
 		</Entity>
 		<Entity uid="23578">
-			<Template>units/pers/support_female_citizen</Template>
+			<Template>units/pers/support_citizen</Template>
 			<Player>4</Player>
 			<Position x="1715.31116" z="1545.3158"/>
 			<Orientation y="2.40142"/>

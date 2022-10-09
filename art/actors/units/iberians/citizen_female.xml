@@ -6,29 +6,29 @@
       <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_pers_fem_1.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/old/iber_helmet_02.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/iber_helmet_02.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="iber-female-1a">
       <textures>
-        <texture file="skeletal/iber_female_1_a.png" name="baseTex"/>
+        <texture file="skeletal/iber/dress_female_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="iber-female-1b">
       <textures>
-        <texture file="skeletal/iber_female_1_b.png" name="baseTex"/>
+        <texture file="skeletal/iber/dress_female_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="iber-female-1c">
       <textures>
-        <texture file="skeletal/iber_female_1_c.png" name="baseTex"/>
+        <texture file="skeletal/iber/dress_female_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="3" name="iber-female-1d">
       <textures>
-        <texture file="skeletal/iber_female_1_d.png" name="baseTex"/>
+        <texture file="skeletal/iber/dress_female_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

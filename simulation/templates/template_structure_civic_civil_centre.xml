@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
   <AlertRaiser>
-    <List datatype="tokens">Support+Citizen</List>
+    <List datatype="tokens">FemaleCitizen</List>
     <RaiseAlertRange>120</RaiseAlertRange>
     <EndOfAlertRange>180</EndOfAlertRange>
     <SearchRange>100</SearchRange>
@@ -10,19 +10,15 @@
     <Ranged>
       <AttackName>Bow</AttackName>
       <Damage>
-        <Hack>0</Hack>
-        <Pierce>12</Pierce>
-        <Crush>0</Crush>
+        <Pierce>10</Pierce>
       </Damage>
       <MaxRange>60</MaxRange>
-      <MinRange>0</MinRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <Delay>0</Delay>
       <Projectile>
-        <Speed>100.0</Speed>
+        <Speed>100</Speed>
         <Spread>1.5</Spread>
-        <Gravity>50.0</Gravity>
+        <Gravity>50</Gravity>
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
@@ -34,11 +30,6 @@
       </RangeOverlay>
     </Ranged>
   </Attack>
-  <BuildingAI>
-    <DefaultArrowCount>3</DefaultArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
-  </BuildingAI>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
     <Category>CivilCentre</Category>
@@ -47,6 +38,11 @@
       <MinDistance>200</MinDistance>
     </Distance>
   </BuildRestrictions>
+  <BuildingAI>
+    <DefaultArrowCount>3</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
+  </BuildingAI>
   <Capturable>
     <CapturePoints>2500</CapturePoints>
     <RegenRate>5.0</RegenRate>
@@ -60,7 +56,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="32.0" depth="32.0"/>
+    <Square depth="32.0" width="32.0"/>
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -88,17 +84,18 @@
     <stone>100</stone>
     <metal>100</metal>
   </Loot>
+  <Minimap>
+    <Type>structure</Type>
+    <Icon size="16.0">civil_centre.png</Icon>
+  </Minimap>
   <Obstruction>
-    <Static width="30.0" depth="30.0"/>
+    <Static depth="30.0" width="30.0"/>
   </Obstruction>
   <Population>
     <Bonus>20</Bonus>
   </Population>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{native}/support_citizen
-    </Entities>
+  <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
       phase_town_{civ}
       phase_city_{civ}
@@ -107,9 +104,10 @@
       unlock_spies
       spy_counter
       archery_tradition
+      hoplite_tradition
       hellenistic_metropolis
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Resistance>
     <Entity>
       <Damage>
@@ -117,13 +115,6 @@
         <Pierce op="add">5</Pierce>
       </Damage>
     </Entity>
-    <Foundation>
-      <Damage>
-        <Hack>5</Hack>
-        <Pierce>15</Pierce>
-        <Crush>3</Crush>
-      </Damage>
-    </Foundation>
   </Resistance>
   <ResourceDropsite>
     <Types>food wood stone metal</Types>
@@ -133,6 +124,7 @@
     <SoundGroups>
       <select>interface/select/building/sel_civ_center.xml</select>
       <constructed>interface/complete/building/complete_civ_center.xml</constructed>
+      <upgraded>interface/complete/building/complete_civ_center.xml</upgraded>
       <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
       <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
       <attack_ranged>attack/weapon/bow_attack.xml</attack_ranged>
@@ -144,6 +136,12 @@
     <Radius>140</Radius>
     <Weight>10000</Weight>
   </TerritoryInfluence>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/support_citizen
+    </Entities>
+  </Trainer>
   <Vision>
     <Range>90</Range>
   </Vision>

@@ -7,9 +7,26 @@
       <props>
         <prop actor="props/units/heads/new/dudette_head.xml" attachpoint="head"/>
       </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="female_01">
       <textures>
-        <texture file="skeletal/spart_female_1.png" name="baseTex"/>
-        <texture file="skeletal/spart_female_1_spec.png" name="specTex"/>
+        <texture file="skeletal/spart/female_01.png" name="baseTex"/>
+        <texture file="skeletal/spart/female_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="female_02">
+      <textures>
+        <texture file="skeletal/spart/female_02.png" name="baseTex"/>
+        <texture file="skeletal/spart/female_02_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="female_03">
+      <mesh>skeletal/new/f_dress.dae</mesh>
+      <textures>
+        <texture file="skeletal/spart/female_03.png" name="baseTex"/>
+        <texture file="skeletal/spart/female_03_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -21,14 +38,14 @@
     <variant file="biped/female_carry_wood.xml"/>
     <variant file="biped/female_carry_stone.xml"/>
     <variant file="biped/female_carry_metal.xml"/>
-	<variant file="biped/approach_tree.xml"/>
-	<variant file="biped/approach_grain.xml"/>
-	<variant file="biped/approach_fruit.xml"/>
-	<variant file="biped/approach_meat.xml"/>
-	<variant file="biped/approach_rock.xml"/>
-	<variant file="biped/approach_ore.xml"/>
-	<variant file="biped/approach_ruins.xml"/>
-	<variant file="biped/approach_praise.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
     <!-- In this group, define overloads for other animation types, since they presumably do not collide with each other -->
