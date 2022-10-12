@@ -10,10 +10,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="5" name="celt_trader_01">
-      <mesh>skeletal/new/m_pants_tunic_short.dae</mesh>
-      <textures><texture file="skeletal/celt_trader_01.dds" name="baseTex"/></textures>
-    </variant>
     <variant frequency="1" name="celt_basic_01">
       <textures><texture file="skeletal/celt_basic_01.png" name="baseTex"/></textures>
     </variant>
