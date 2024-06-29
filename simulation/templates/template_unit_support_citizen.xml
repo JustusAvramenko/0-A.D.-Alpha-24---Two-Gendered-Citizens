@@ -30,7 +30,7 @@
     <Max>25</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Civilian Builder Gatherer</Classes>
+    <Classes datatype="tokens">Civilian Builder Gatherer AlertRaise Villager</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
     <GenericName>Citizen</GenericName>
     <SelectionGroupName>template_unit_support_citizen</SelectionGroupName>

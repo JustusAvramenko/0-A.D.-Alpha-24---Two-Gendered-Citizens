@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
   <AlertRaiser>
-    <List datatype="tokens">FemaleCitizen</List>
+    <List datatype="tokens">AlertRaise</List>
     <RaiseAlertRange>120</RaiseAlertRange>
     <EndOfAlertRange>180</EndOfAlertRange>
     <SearchRange>100</SearchRange>
@@ -50,9 +50,9 @@
   <Cost>
     <BuildTime>500</BuildTime>
     <Resources>
-      <wood>500</wood>
-      <stone>500</stone>
-      <metal>500</metal>
+      <wood>300</wood>
+      <stone>300</stone>
+      <metal>250</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -80,9 +80,9 @@
     <Icon>structures/civic_centre.png</Icon>
   </Identity>
   <Loot>
-    <wood>100</wood>
-    <stone>100</stone>
-    <metal>100</metal>
+    <wood>60</wood>
+    <stone>60</stone>
+    <metal>50</metal>
   </Loot>
   <Minimap>
     <Type>structure</Type>
@@ -101,11 +101,12 @@
       phase_city_{civ}
       unlock_shared_los
       unlock_shared_dropsites
-      unlock_spies
-      spy_counter
       archery_tradition
       hoplite_tradition
       hellenistic_metropolis
+      roman_roads
+      unlock_spies
+      spy_counter
     </Technologies>
   </Researcher>
   <Resistance>

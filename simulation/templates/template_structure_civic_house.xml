@@ -27,7 +27,9 @@
     <SelectionGroupName>template_structure_civic_house</SelectionGroupName>
     <VisibleClasses datatype="tokens">Village House</VisibleClasses>
     <Icon>structures/house.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <wood>15</wood>
@@ -41,7 +43,7 @@
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      health_citizens_01
+      health_females_01
       pop_house_01
       pop_house_02
       unlock_citizens_house
